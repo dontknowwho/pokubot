@@ -60,6 +60,7 @@ public class StateAttack implements State {
 
 			if (ConfigUtils.instance().doConditionsMatch(gold, elixir, de) &&
 				(!ConfigUtils.instance().isDetectEmptyCollectors() || ImageParser.isCollectorFullBase())) {
+					//(-----------------add description here-------------------)
 			
 //			// debug
 //			if (true) {
